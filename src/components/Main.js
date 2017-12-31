@@ -11,7 +11,7 @@ import Roster from './Roster'
 const Main = () => (
     <main>
         <Switch>
-            <Route exact path='/' component={Home}/>
+            {/*<Route exact path='/' component={Home}/>*/}
             <Route path='/movie' component={Roster}/>
         </Switch>
     </main>
